@@ -86,7 +86,7 @@ public class EmployeeController {
 
 //    Delete All the Employee Details
     @GetMapping("/deleteAll")
-    public ModelAndView deleteAllStudents(){
+    public ModelAndView deleteAllEmployees(){
         String message = employeeService.deleteAllEmployeesData();
         ModelAndView modelAndView = new ModelAndView("deleteSuccess");
         modelAndView.addObject("message", message);
