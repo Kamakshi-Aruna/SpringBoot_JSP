@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee List</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Optional Bootstrap theme -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/css/bootstrap-theme.min.css" rel="stylesheet">
     <script>
         function confirmDeleteAll() {
@@ -50,8 +49,6 @@
     <a class="btn btn-success" href="employeeForm">Create New Employee</a>
     <a class="btn btn-danger" href="${pageContext.request.contextPath}/deleteAll" onclick="return confirmDeleteAll();">Delete All</a>
 </div>
-
-<!-- Bootstrap JS and dependencies (Optional) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
