@@ -40,7 +40,7 @@
         </div>
         <!-- Register Button -->
         <button type="submit" class="btn btn-primary btn-block">Register</button>
-        <!-- Back to LSI Button -->
+        <!-- Back to List Button --
         <a href="employeesList" class="btn btn-secondary btn-block">Back to List</a>
     </form>
     <!-- Display success message if it exists -->
